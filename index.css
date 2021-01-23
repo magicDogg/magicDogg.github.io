@@ -12,3 +12,12 @@
     padding: 0 1.5rem;
     font-weight: 200;
 }
+
+._45X3s {
+    font-size: calc(49/16*1rem);
+    font-size: var(--font-title1-size);
+    line-height: 1.16327;
+    line-height: var(--font-title1-line-height);
+    font-family: "Roboto";
+    font-family: var(--font-family-sans);
+}
