@@ -1,59 +1,3 @@
-<!-- <body style="margin: 0px;">
-    <div id="__next"><div class="container">
-        <div class="_1UNRH" data-show-nav="false">
-            <nav class="_3dWJo">
-                <ul class="D97XT">
-                    <li class="_1XGqh">
-                        <a href="https://www.linkedin.com/in/you-young-lee-858a21175">
-                            <svg class="sc-bdVaJa fUuvxv" fill="#000000" width="22px" height="22px" viewBox="0 0 1024 1024" rotate="0">
-                                <path d="M834.4 128h-640.8c-35 0-65.6 25.2-65.6 59.8v642.2c0 34.8 30.6 65.8 65.6 65.8h640.6c35.2 0 61.6-31.2 61.6-65.8v-642.2c0.2-34.6-26.4-59.8-61.4-59.8zM366 768h-110v-342h110v342zM314.8 374h-0.8c-35.2 0-58-26.2-58-59 0-33.4 23.4-59 59.4-59s58 25.4 58.8 59c0 32.8-22.8 59-59.4 59zM768 768h-110v-187c0-44.8-16-75.4-55.8-75.4-30.4 0-48.4 20.6-56.4 40.6-3 7.2-3.8 17-3.8 27v194.8h-110v-342h110v47.6c16-22.8 41-55.6 99.2-55.6 72.2 0 126.8 47.6 126.8 150.2v199.8z"></path>
-                            </svg>
-                        </a>
-                        <a href="https://github.com/magicDogg">
-                        <svg class="sc-bdVaJa fUuvxv" fill="#000000" width="22px" height="22px" viewBox="0 0 1024 1024" rotate="0">
-                            <path d="M512 64c-247.4 0-448 205.8-448 459.4 0 203 128.4 375 306.4 435.8 2.8 0.6 5.2 0.8 7.6 0.8 16.6 0 23-12.2 23-22.8 0-11-0.4-39.8-0.6-78.2-16.8 3.8-31.8 5.4-45.2 5.4-86.2 0-105.8-67-105.8-67-20.4-53-49.8-67.2-49.8-67.2-39-27.4-0.2-28.2 2.8-28.2 0.2 0 0.2 0 0.2 0 45 4 68.6 47.6 68.6 47.6 22.4 39.2 52.4 50.2 79.2 50.2 21 0 40-6.8 51.2-12 4-29.6 15.6-49.8 28.4-61.4-99.4-11.6-204-51-204-227 0-50.2 17.4-91.2 46-123.2-4.6-11.6-20-58.4 4.4-121.6 0 0 3.2-1 10-1 16.2 0 52.8 6.2 113.2 48.2 35.8-10.2 74-15.2 112.2-15.4 38 0.2 76.4 5.2 112.2 15.4 60.4-42 97-48.2 113.2-48.2 6.8 0 10 1 10 1 24.4 63.2 9 110 4.4 121.6 28.6 32.2 46 73.2 46 123.2 0 176.4-104.8 215.2-204.6 226.6 16 14.2 30.4 42.2 30.4 85 0 61.4-0.6 111-0.6 126 0 10.8 6.2 23 22.8 23 2.4 0 5.2-0.2 8-0.8 178.2-60.8 306.4-233 306.4-435.8 0-253.6-200.6-459.4-448-459.4z"></path>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <div class="content">
-            <div class="_175SO">
-                <section class="ER3pL">
-                    <div class="_2Y2Kp">
-                    </div>
-                    <h2 class="_45X3s">About Me</h2>
-                    <div>
-                        <figure class="_1c1uc"><img src="https://static.wikia.nocookie.net/adventuretimewithfinnandjake/images/e/ef/S1e20_Magic_Man.png/revision/latest?cb=20131023150037" class="_1I21Z" alt="Magic Man!">
-                        </figure>
-                        <p> 
-                          Hello I am paragraph
-                        </p>
-                    </div>
-                </section>
-            </div>
-            <div class="_175SO">
-                <section class="ER3pL">
-                    <div class="_2Y2Kp">
-                    </div>
-                    <h2 class="_45X3s">Projects I've Worked On</h2>
-                    <div>
-                        <h4>GA Chartbuilder</h4>
-                        <p>This is an npm package</p>
-                        <div class="_1vwuX">
-                            <div class="TkhMv">
-                                <img class="_2Vn0q" src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png">Node.js
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </div>
-        </div>
-        </div>
-    </div>
-</body> -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -69,18 +13,24 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.links {
+  background-color: #ccc;
+  padding: 30px;
+  text-align: right;
+  font-size: 10px;
+}
+
 /* Style the header */
 header {
-  background-color: #FFFFFF;
+  background-color: #ccc;
   padding: 30px;
   text-align: center;
   font-size: 35px;
-  color: white;
 }
 
 /* Container for flexboxes */
 section {
-  display: -webkit-flex;
+  /*display: -webkit-flex;*/
   display: flex;
 }
 
@@ -90,34 +40,36 @@ nav {
   -ms-flex: 1;
   flex: 1;
   background: #ccc;
-  padding: 10px;
+  padding: 5px;
+  flex: 10%;
 }
 
 /* Style the list inside the menu */
-nav ul {
+/*nav ul {
   list-style-type: none;
   padding: 0;
-}
+}*/
 
 /* Style the content */
 article {
   -webkit-flex: 3;
   -ms-flex: 3;
   flex: 3;
-  background-color: #f1f1f1;
+  background-color: #ccc;
   padding: 10px;
+  flex: 90%;
 }
 
 /* Style the footer */
 footer {
-  background-color: #777;
+  background-color: #ccc;
   padding: 10px;
   text-align: center;
   color: white;
 }
 
 /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
-@media (max-width: 600px) {
+@media () {
   section {
     -webkit-flex-direction: column;
     flex-direction: column;
@@ -125,39 +77,61 @@ footer {
 }
 </style>
 </head>
-<body>
 
-<h2>CSS Layout Flexbox</h2>
-<p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
-<p>Resize the browser window to see the responsive effect.</p>
-<p><strong>Note:</strong> Flexbox is not supported in Internet Explorer 10 and earlier versions.</p>
+<div class="links">
+  <a href="https://www.linkedin.com/in/you-young-lee-858a21175">
+    <svg class="sc-bdVaJa fUuvxv" fill="#000000" width="33px" height="33px" viewBox="0 0 1024 1024" rotate="0">
+      <path d="M834.4 128h-640.8c-35 0-65.6 25.2-65.6 59.8v642.2c0 34.8 30.6 65.8 65.6 65.8h640.6c35.2 0 61.6-31.2 61.6-65.8v-642.2c0.2-34.6-26.4-59.8-61.4-59.8zM366 768h-110v-342h110v342zM314.8 374h-0.8c-35.2 0-58-26.2-58-59 0-33.4 23.4-59 59.4-59s58 25.4 58.8 59c0 32.8-22.8 59-59.4 59zM768 768h-110v-187c0-44.8-16-75.4-55.8-75.4-30.4 0-48.4 20.6-56.4 40.6-3 7.2-3.8 17-3.8 27v194.8h-110v-342h110v47.6c16-22.8 41-55.6 99.2-55.6 72.2 0 126.8 47.6 126.8 150.2v199.8z">
+      </path>
+    </svg>
+  </a>
+
+  <a href="https://github.com/magicDogg">
+    <svg class="sc-bdVaJa fUuvxv" fill="#000000" width="33px" height="33px" viewBox="0 0 1024 1024" rotate="0">
+      <path d="M512 64c-247.4 0-448 205.8-448 459.4 0 203 128.4 375 306.4 435.8 2.8 0.6 5.2 0.8 7.6 0.8 16.6 0 23-12.2 23-22.8 0-11-0.4-39.8-0.6-78.2-16.8 3.8-31.8 5.4-45.2 5.4-86.2 0-105.8-67-105.8-67-20.4-53-49.8-67.2-49.8-67.2-39-27.4-0.2-28.2 2.8-28.2 0.2 0 0.2 0 0.2 0 45 4 68.6 47.6 68.6 47.6 22.4 39.2 52.4 50.2 79.2 50.2 21 0 40-6.8 51.2-12 4-29.6 15.6-49.8 28.4-61.4-99.4-11.6-204-51-204-227 0-50.2 17.4-91.2 46-123.2-4.6-11.6-20-58.4 4.4-121.6 0 0 3.2-1 10-1 16.2 0 52.8 6.2 113.2 48.2 35.8-10.2 74-15.2 112.2-15.4 38 0.2 76.4 5.2 112.2 15.4 60.4-42 97-48.2 113.2-48.2 6.8 0 10 1 10 1 24.4 63.2 9 110 4.4 121.6 28.6 32.2 46 73.2 46 123.2 0 176.4-104.8 215.2-204.6 226.6 16 14.2 30.4 42.2 30.4 85 0 61.4-0.6 111-0.6 126 0 10.8 6.2 23 22.8 23 2.4 0 5.2-0.2 8-0.8 178.2-60.8 306.4-233 306.4-435.8 0-253.6-200.6-459.4-448-459.4z">
+      </path>
+    </svg>
+  </a>
+</div>
 
 <header>
-  <h2>Cities</h2>
+  <h2>About Me</h2>
 </header>
+
+
+<body>
 
 <section>
   <nav>
-    <ul>
-      <li><a href="#">London</a></li>
-      <li><a href="#">Paris</a></li>
-      <li><a href="#">Tokyo</a></li>
-    </ul>
   </nav>
   
   <article>
-    <h1>London</h1>
-    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+    <h1 font-size: 150%>Introduction</h1>
+    
+    <figure class="_1c1uc">
+      <img src="https://static.wikia.nocookie.net/adventuretimewithfinnandjake/images/e/ef/S1e20_Magic_Man.png/revision/latest?cb=20131023150037" class="_1I21Z" alt="Magic Man!" width="600" height="450">
+    </figure>
+    
+    <p>
+      I am an industry experienced software engineer with a Master's degree in Electrical & Computer engineering, concentrated in the field of Digital Signal Processing. 
+      <br>
+      As a software engineer, I am experienced in signal processing algorithm design and optimization, Full-Stack development for hardware simulation tools, Python library development to help users easily design their own FPGA architectures, and Computer Vision projects. 
+      <br> 
+      As I have found my career passion in Data Science and research fields, I am currently pursuing MS degree in Computer Science and looking for research experience in relevant fields.
+    </p>
+    
+    <br>
+    
+    <h1>Introduction</h1>
+    <p>
+      Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.
+    </p>
   </article>
 </section>
 
 <footer>
-  <p>Footer</p>
+  <p>Any Question?</p>
 </footer>
 
 </body>
 </html>
-
-        
-        
